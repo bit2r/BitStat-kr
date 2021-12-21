@@ -42,9 +42,7 @@ library(flextable)
 .BitStatEnv <- new.env()
 assign("language", "kr", envir = .BitStatEnv)
 
-trans_file <- "translation.csv"
-trans_csv <- file.path(system.file(package = "BitStat"), 
-                       "translation", trans_file)
+trans_csv <- "translation/translation.csv"
 
 translation <- readr::read_csv(trans_csv, show_col_types = FALSE,
                                locale = readr::locale(encoding = "UTF-8"))

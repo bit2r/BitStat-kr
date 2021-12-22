@@ -1,0 +1,2 @@
+sudo R --vanilla -e 'install.packages("dlookr", repos="https://cran.rstudio.com/")'
+sudo R --vanilla -e 'install.packages("shinydashboardPlus", repos="https://cran.rstudio.com/")'

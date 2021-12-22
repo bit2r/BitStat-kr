@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+dependencies:
+- r-base=3.6
+- r-tidyverse
+- r-shinyjs
+- r-shinydashboard
+- r-shinyWidgets
+- r-shinybusy
+- r-htmltools
+- r-colourpicker
+- r-dplyr
+- r-lubridate
+- r-reactable
+- r-readr
+- r-vroom
+- r-glue
+- r-xlsx
+- r-flextable
